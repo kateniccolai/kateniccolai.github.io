@@ -1,0 +1,27 @@
+nav {
+    background-color: #212021;
+    color: #FFFFFF;
+}
+a {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #ADD8E6;
+}
+#homeheadshot {
+    display: block;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+    position: relative;
+    right: 250px
+}
+.main {
+    position: relative;
+    left: 500px
+    
+    
+}
+.top {
+    text-align: center;
+}
