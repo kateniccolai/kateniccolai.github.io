@@ -1,27 +1,73 @@
+body{
+    display: block;
+    margin: 0px;
+}
 nav {
     background-color: #212021;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 45px;
+}
+.logo {
+    position: relative;
+    right: 1030px;
+    top: 45px;
+}
+footer{
+     background-color: #212021;
     color: #FFFFFF;
 }
 a {
     color: #FFFFFF;
 }
 a:hover {
-    color: #ADD8E6;
+    color: #CDEDF6;
+}
+.main {
+    text-align: center;
+    position: relative;
+    left: -300px;
+    top: 340px;
+
 }
 #homeheadshot {
     display: block;
     margin: auto;
-    width: 25%;
+    width: 20%;
+    border-radius: 8px;
+    position: relative;
+    bottom: 90px;
+    left: 400px
+    
+}
+.abouthead{
+    display: block;
+    margin: auto;
+    width: 20%;
     border-radius: 8px;
     position: relative;
     right: 250px
 }
-.main {
-    position: relative;
-    left: 500px
-    
-    
-}
 .top {
     text-align: center;
+}
+footer {
+    text-align: center;
+}
+table, tr, th, td{
+  width:50%;
+  border: solid #212021;
+  background-color: #FFFFFF;
+  margin: auto;
+}
+th{
+  background-color: #212021;
+  color: #FFFFFF;
+}
+tr:hover {
+  background-color: #a2a2a2;
 }
